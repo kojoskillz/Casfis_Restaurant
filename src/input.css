@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  scroll-behavior: smooth;
+}
+
+.img1{
+   background-image: linear-gradient(to top,rgba(76, 77, 86, 0.215)10%,rgba(0, 0, 0, 0.867)50%),url(img1.jpg);
+   background-position: center;
+   display: grid;
+   place-content: center;
+   background-size: cover;
+   padding-bottom: 40px;
+   background-repeat: no-repeat;
+}
+
+h1, .font_class{
+  font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'Pacifico', cursive;
+}
+
+
+/* shape_divider */
+
+.custom-shape-divider-top-1694463909 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1694463909 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1694463909 .shape-fill {
+  fill: #030712;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1694463909 svg {
+      width: calc(152% + 1.3px);
+      height: 253px;
+  }
+}
